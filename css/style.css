@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial,sans-serif;
     margin: 0
 }
 
@@ -72,10 +72,11 @@ table{
 }
 
 td{
-    border: 1px solid black;
+    padding: 15px;
 }
 
 #popular {
+    display: inline-block;
     margin-top: 15px;
     margin: 15px;
     text-align: center;
@@ -83,25 +84,39 @@ td{
     width: 100%
 }
 
-#main {
-    border: 1px dashed red;
-    height: 400px;
+
+#cawt1 {
+    background-image: url("../img/1ragdoll.jpg");
+    background-size: 600px 600px;
+}
+#cawt2 {
+    background-image: url("../img/2mainecoon.jpg");
+    background-size: 600px 600px;
+}
+#cawt3 {
+    background-image: url("../img/3devonrex.jpg");
+    background-size: 600px 600px;
+}
+#cawt4 {
+    background-image: url("../img/4exotic.jpg");
+    background-size: 600px 600px;
 }
 
 #cawt1, #cawt2, #cawt3, #cawt4 {
     margin: 20px;
     overflow:hidden;
     word-wrap: break-word;
-    height: 150px;
+    height: 600px;
+    width: 600px;
     border: 3px groove black;
     border-collapse: collapse;
     float: left;
     text-align: center;
-    width: 20%;
+
 }
 
 #unpopular{
-    width: 100%
+    width: 100%;
 }
 .menu-container {
             position: relative;
@@ -124,3 +139,61 @@ td{
             color: #333;
             display: block;
         }
+
+#t5, #t6, #t7, #t8, #t9, #t10, #t11, #t12, #t13, #t14, #t15, #t16, #t17, #t18, #t19, #t20{
+    width: 100%;
+    overflow:hidden;
+    word-wrap: break-word;
+    margin: auto;
+}
+
+
+.desc {
+    font-size: 25px;
+}
+
+#perstable, #britishshortable, #abyssinianable, #domesticable, #scottishfoldable, #sphynxable, #siberianable, #americanshorthairable, #bengalable, #russianblueable, #norwegianable, #orientalable, #siameseable, #cornishable, #selkirkable, #birmanable{
+    width: 800px;
+    margin: auto;
+    font-size:x-large;
+    border: none;
+}
+
+.diff {
+    background-color: antiquewhite;
+}
+
+
+
+#popup1 {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#popup2 {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#popup3 {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#popup4 {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
