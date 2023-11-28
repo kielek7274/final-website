@@ -78,10 +78,10 @@ td{
 #popular {
     display: inline-block;
     margin-top: 15px;
-    margin: 15px;
+    margin-left: 250px;
     text-align: center;
     padding: 5px;
-    width: 100%
+    width: 100%;
 }
 
 
