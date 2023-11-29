@@ -26,6 +26,23 @@ document.addEventListener('click', function(event) { // adds a click event https
     }
 });
 
+let openModalBtn = document.getElementById('opendialogue');
+let modal = document.getElementById('dialogue');
+
+openModalBtn.onclick = function() {
+  modal.style.display = 'block';
+}
+
+function closeModal() {
+  modal.style.display = 'none';
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = 'none';
+  }
+}
+
 
 
 

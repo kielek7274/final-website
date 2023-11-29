@@ -19,6 +19,7 @@ header{
     padding-top: 10px;
     background-color: rgb(226, 214, 198);
     height: 50px;
+    border-bottom: 2px solid rgb(177, 166, 152) ;
 }
 
 #menu{
@@ -81,64 +82,116 @@ td{
     margin-left: 250px;
     text-align: center;
     padding: 5px;
-    width: 100%;
+    width: 1000px;
 }
 
 
 #cawt1 {
     background-image: url("../img/1ragdoll.jpg");
-    background-size: 600px 600px;
 }
 #cawt2 {
     background-image: url("../img/2mainecoon.jpg");
-    background-size: 600px 600px;
 }
 #cawt3 {
     background-image: url("../img/3devonrex.jpg");
-    background-size: 600px 600px;
 }
 #cawt4 {
     background-image: url("../img/4exotic.jpg");
-    background-size: 600px 600px;
 }
 
+img{
+    width: 1400px;
+    height: 700px;
+}
 #cawt1, #cawt2, #cawt3, #cawt4 {
+    background-size: 400px 400px;
     margin: 20px;
     overflow:hidden;
     word-wrap: break-word;
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
     border: 3px groove black;
     border-collapse: collapse;
     float: left;
     text-align: center;
 
 }
+footer{
+    font-size: larger;
+    background-color: rgb(226, 214, 198);
+    height: auto;
+    padding: 10px;
+    padding-bottom: 50px;
+    border-top: 2px solid rgb(177, 166, 152) ;
+}
+
+#footerh{
+    padding: 5px;
+    text-align: center;
+}
+#footer{
+    padding: 5px;
+}
+
+#informh{
+    text-align: center;
+}
+
+#footerdiv{
+    text-align: center;
+}
+
+#footerdiv1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+
+.footerinfo{
+    font-size: small;
+    text-decoration: underline;
+}
+#autograph{
+    text-align: right;
+}
+#others{
+    font-size: large;
+    border-top: 1px solid black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#others{
+    padding: 10px;
+}
+.otherlist{
+    padding: 5px;
+}
 
 #unpopular{
     width: 100%;
 }
 .menu-container {
-            position: relative;
-            display: inline-block;
-            cursor: pointer;
-        }
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
 .menu-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-            z-index: 1;
-        }
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 .menu-container.active .menu-content {
-            display: block;
-        }
+    display: block;
+}
 .opcja {
-            padding: 12px;
-            text-decoration: none;
-            color: #333;
-            display: block;
-        }
+    padding: 12px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
 
 #t5, #t6, #t7, #t8, #t9, #t10, #t11, #t12, #t13, #t14, #t15, #t16, #t17, #t18, #t19, #t20{
     width: 100%;
@@ -169,31 +222,67 @@ td{
     display: none;
     position: absolute;
     padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: rgb(226, 214, 198);
+    border: 1px solid rgb(177, 166, 152);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 #popup2 {
     display: none;
     position: absolute;
     padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: rgb(226, 214, 198);
+    border: 1px solid rgb(177, 166, 152);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 #popup3 {
     display: none;
     position: absolute;
     padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: rgb(226, 214, 198);
+    border: 1px solid rgb(177, 166, 152);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 #popup4 {
     display: none;
     position: absolute;
     padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: rgb(226, 214, 198);
+    border: 1px solid rgb(177, 166, 152);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+button{
+    margin-left: 10px;
+    height: 25px;
+    width: 150px;
+}
+
+#form{
+    margin:10px;
+}
+
+#dialogue {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#dialcontent {
+    background-color: rgb(226, 214, 198);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+#feedback{
+    text-align: left;
+    width: 80%;
+    height: 100px;
 }
