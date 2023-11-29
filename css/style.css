@@ -104,17 +104,18 @@ img{
     height: 700px;
 }
 #cawt1, #cawt2, #cawt3, #cawt4 {
-    background-size: 400px 400px;
+    background-size: 500px 400px;
     margin: 20px;
     overflow:hidden;
     word-wrap: break-word;
     height: 400px;
     width: 400px;
-    border: 3px groove black;
+    border: 3px groove rgb(177, 166, 152);
+    background-color:rgb(226, 214, 198) ;
     border-collapse: collapse;
     float: left;
     text-align: center;
-
+    border-radius: 15px;
 }
 footer{
     font-size: larger;
