@@ -13,7 +13,7 @@ body{
 }
 
 #welcome {
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 header{
     padding-top: 10px;
@@ -210,6 +210,7 @@ ul{
     margin: auto;
     font-size:x-large;
     border: none;
+    border-radius: 15px;
 }
 
 .diff {
@@ -285,4 +286,17 @@ button{
     text-align: left;
     width: 80%;
     height: 100px;
+}
+
+#opendialogue{
+    border: 3px inset blue;
+    color: blue;
+    height: 50px;
+    width: 200px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+a{
+    color: blue;
 }
