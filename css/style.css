@@ -13,13 +13,14 @@ body{
 }
 
 #welcome {
+    padding-top: 52px;
+    letter-spacing: 2px;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 header{
-    padding-top: 10px;
     background-color: rgb(226, 214, 198);
-    height: 50px;
+    height: 150px;
     border-bottom: 2px solid rgb(177, 166, 152) ;
 }
 
@@ -66,6 +67,7 @@ nav {
 }
 a {
     text-decoration: none;
+    color: blue;
 }
 
 table{
@@ -84,7 +86,7 @@ td{
     margin-left: 250px;
     text-align: center;
     padding: 5px;
-    width: 1000px;
+    width: 80%;
 }
 
 
@@ -100,6 +102,7 @@ td{
 #cawt4 {
     background-image: url("../img/4exotic.jpg");
 }
+
 
 img{
     width: 1400px;
@@ -158,7 +161,7 @@ footer{
 }
 #others{
     font-size: large;
-    border-top: 1px solid black;
+    border-top: 2px solid rgb(177, 166, 152);
 }
 
 ul{
@@ -192,7 +195,7 @@ ul{
 .opcja {
     padding: 12px;
     text-decoration: none;
-    color: #333;
+    color: black;
     display: block;
 }
 
@@ -279,6 +282,7 @@ button{
 
 #dialcontent {
     background-color: rgb(226, 214, 198);
+    border-radius: 15px;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
@@ -300,10 +304,21 @@ button{
     border-radius: 10px;
 }
 
-a{
-    color: blue;
-}
 
 #inputter{
     font-size: large;
+}
+
+#email, #feedback{
+    border: 2px solid rgb(177, 166, 152) ;
+}
+
+#submit{
+    border: 2px solid rgb(177, 166, 152);
+    width: 80px;
+    height: 25px;
+}
+
+#email, #feedback, #submit{
+border-radius: 15px;
 }
