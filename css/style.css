@@ -331,6 +331,7 @@ button{
 
 #opendialogue:hover{
     cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.9)
 }
 
 #inputter{
