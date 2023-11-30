@@ -9,6 +9,7 @@ h1 {
 }
 
 body{
+    
     background-color:antiquewhite;
 }
 
@@ -22,6 +23,7 @@ header{
     background-color: rgb(226, 214, 198);
     height: 150px;
     border-bottom: 2px solid rgb(177, 166, 152) ;
+    width: 100%;
 }
 
 #menu{
@@ -56,6 +58,7 @@ header{
 
 }
 nav {
+    
     text-align: center;
     margin-top: 10px;
 }
@@ -75,14 +78,20 @@ td{
 }
 
 #popular {
-    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
     margin-top: 15px;
-    margin-left: 250px;
     text-align: center;
-    padding: 5px;
     width: 80%;
 }
 
+#popular-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 #cawt1 {
     background-image: url("../img/1ragdoll.jpg");
@@ -104,21 +113,22 @@ img{
 }
 
 #cawt1, #cawt2 {
-    width: 50%; /* Kot1 i Kot2 zajmują 50% szerokości */
-    float: left; /* Pozycjonowanie obok siebie */
+    width: 50%;
+    float: left;
 }
+
 
 #cawt3 {
     width: 50%; 
-    clear:both
+    float: left
 }
 #cawt4{
     width:50%;
+    float:left
 }
 #cawt1, #cawt2, #cawt3, #cawt4 {
-    box-sizing: border-box; /* Uwzględnia padding i border w szerokości elementu */
-    padding: 10px; /* Dodaje padding, aby oddzielić elementy */
-    background-size: 500px 400px;
+    
+    background-size: 100% 100%;
     margin: 20px;
     overflow:hidden;
     word-wrap: break-word;
@@ -127,7 +137,6 @@ img{
     border: 3px groove rgb(177, 166, 152);
     background-color:rgb(226, 214, 198) ;
     border-collapse: collapse;
-    float: left;
     text-align: center;
     border-radius: 15px;
 }
