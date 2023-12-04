@@ -140,6 +140,7 @@ img{
     border-collapse: collapse;
     text-align: center;
     border-radius: 15px;
+    transition-duration: 1s;
 }
 footer{
     font-size: larger;
@@ -328,11 +329,15 @@ button{
     width: 200px;
     font-size: 14px;
     border-radius: 10px;
+    transition-duration: 1s;
 }
 
 #opendialogue:hover{
     cursor: pointer;
-    box-shadow: 0 0 15px rgba(0, 0, 255, 0.9)
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.9);
+    height: 75px;
+    width: 300px;
+    transition-duration: 1s;
 }
 
 #inputter{
